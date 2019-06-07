@@ -1,3 +1,15 @@
+<?php if (isset($_SESSION['errors'])) { ?>
+    <div class="alert alert-danger">
+        <ul>
+            <?php foreach ($_SESSION['errors'] as $error) { ?>
+                <li><?= $error; // "=" ir tas pats, kas "php echo" ?></li>
+            <?php } ?> 
+        </ul>
+    </div>
+<?php
+unset($_SESSION['errors']);
+}
+?>
 <form action="/Lesson_6/registration.php" method="POST">
     <div>
         <label for="email">Email</label>
