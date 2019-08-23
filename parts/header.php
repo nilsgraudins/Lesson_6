@@ -16,10 +16,10 @@
 </head>
 
 <body>
-    Header -- seit liksim visas CSS lietas
+    <!-- Header -- seit liksim visas CSS lietas
     Lai pieliktu datu bazi lapai, var datu bazes editoraa panemt Export, tad Go,
     vins uzgenere tekstu, kas ir pec tam jaizpilda uz vajadziga datora, tiek uztaisita
-    datu baze.
+    datu baze. -->
     <a href="/Lesson_6" class="asd<?php echo !isset($_GET['page']) ? ' active' : ''; ?>">Index</a>
     <a href="/Lesson_6?page=articles" class="asd<?php echo $_GET['page'] == 'articles' ? ' active' : ''; ?>">Articles</a>
 
